@@ -7,7 +7,7 @@ import github from '../assets/github.png'
 
 const Skills = () => {
     return (
-        <div className='w-full h-screen snap-center'>
+        <div id='skills' className='w-full h-screen snap-center'>
             <div className='max-w-4xl w-full mx-auto my-6 p-4 flex flex-col justify-center h-full'>
                 <div className='my-8'>
                     <p className='my-4 font-bold text-4xl inline border-b-4 border-celeste'>Skills</p>

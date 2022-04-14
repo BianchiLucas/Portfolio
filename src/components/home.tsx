@@ -6,7 +6,7 @@ import captura from '../assets/Captura.png'
 
 const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <div className='container w-full h-full grid grid-cols-auto lg:grid-cols-2 m-auto p-8 gap-14 items-center justify-center '>
                 <div className='columns-1 sm:columns-2 snap-center '>
 

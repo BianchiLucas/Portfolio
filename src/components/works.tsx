@@ -6,7 +6,7 @@ import work4 from '../assets/Captura.png'
 
 const Works = () => {
     return (
-        <div className='w-full md:h-screen snap-center'>
+        <div id='works' className='w-full md:h-screen snap-center'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
                 <div className='pb-8'>

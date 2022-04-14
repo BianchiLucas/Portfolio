@@ -7,7 +7,7 @@ const About = () => {
 
 
     return (
-        <div id='about'  className='w-full h-screen box-border snap-center'>
+        <div id='about' className='w-full h-screen box-border snap-center'>
             <div className='flex flex-col items-center justify-center w-full h-full my-6'>
               
                     <div ref={ref} className={`${inView ? 'animate-mR max-w-5xl w-full  grid grid-cols-2 gap-8': 'max-w-5xl w-full  grid grid-cols-2 gap-8'}`} >

@@ -12,6 +12,9 @@ module.exports = {
       grey2: '#475569',
       white: '#fff',
       celeste: 'hsla(242, 74%, 61%, 0.5)',
+      linkedIn: '#0e76a8',
+      gitHub: '#181717',
+      mail: '#ff8c00',
     },
     extend: {
       backgroundImage: {
