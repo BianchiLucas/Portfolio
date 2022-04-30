@@ -12,19 +12,20 @@ const About = () => {
               
                     <div ref={ref} className={`${inView ? 'animate-mR max-w-5xl w-full  grid grid-cols-2 gap-8': 'max-w-5xl w-full  grid grid-cols-2 gap-8'}`} >
                         <div className='sm:text-right pb-8 pl-4 '>
-                            <p className='text-4xl font-bold inline border-b-4 border-celeste '>About</p>
+                            <p className='text-4xl font-bold inline border-b-4 border-celeste '>About me</p>
                         </div>
                     </div>
                   
                 <div className='max-w-5xl w-full  grid sm:grid-cols-2 gap-8 px-4'>
 
                     <div className={`${inView ? 'sm:text-right text-4xl font-bold animate-mR2': 'sm:text-right text-4xl font-bold'}`}>
-                        <p>Hi. Im etc etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ratione</p>
+                        <p>Hi. I'm Lucas Bianchi, nice to meet you. Pleace take a look around.</p>
                     </div>
 
                     <div className={`${inView ? 'animate-mL' : ''}`}>
-                        <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, cumque.
-                            Eum ea totam distinctio officiis, incidunt deserunt autem expedita neque.
+                        <p className='text-lg'>
+                            I'm a front-end web developer apprentice, currently finishing my Industrial engineering studies at the Universidad Tecnológica Nacional, Facultad Regional Santa Fe. 
+                            I'm focused on building responsive web aplications. My goal is to become a full-stack developer and learn new programming languages.
                         </p>
                     </div>
 

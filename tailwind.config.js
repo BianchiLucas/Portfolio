@@ -30,11 +30,11 @@ module.exports = {
       },
       keyframes: {
         mR: {
-          "0%": { transform: "translateX(-300px) scale(0.9)"},
+          "0%": { transform: "translateX(-300px) scale(0.9)", opacity: 0.3 },
           "100%": { transform: "translateX(0px) scale(1)"},
         },
         mL: {
-          "0%": { transform: "translateX(300px) scale(0.9)"},
+          "0%": { transform: "translateX(300px) scale(0.9)", opacity: 0.3},
           "100%": { transform: "translateX(0px) scale(1)"},
         },
         smooth_in: {
@@ -47,6 +47,9 @@ module.exports = {
         },
       }
     },
+    fontFamily: {
+      mono: ['droid-sans-mono', 'monospace'],
+    }
   },
   plugins: [],
 }

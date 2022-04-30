@@ -9,7 +9,7 @@ import Works from './components/works';
 
 function App() {
   return (
-    <div className='w-full h-screen bg-gradient-to-r from-backgroundColor to-blue3  text-white box-border overflow-auto snap-y snap-mandatory '>
+    <div className='w-full h-screen bg-gradient-to-b from-backgroundColor to-ligthBlue  text-white box-border overflow-auto snap-y snap-proximity '>
       <NavBar />
       <Home />
       <About />

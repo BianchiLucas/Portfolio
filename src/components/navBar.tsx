@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaLinkedin, FaGithub, FaRegAddressBook } from 'react-icons/fa'
 import miniature from '../assets/miniature.png'
 import { navBarData } from '../data/navBarData'
+import logo from '../assets/lb.png'
 
 
 const NavBar = () => {
@@ -15,17 +16,17 @@ const NavBar = () => {
     }
 
     return (
-        <div className='relative w-full h-[80px] flex justify-between items-center px-4 mt-4 text-2xl snap-start'>
+        <div className='relative w-full h-24 flex justify-between items-center px-4  mb-4 text-2xl snap-start'  id='navbar'>
             <div className='px-4 relative'>
-                <img src={miniature} alt="Logo" className='h-20 z-10' />
-                <div className='h-20 w-20 ml-4 absolute top-0 left-0 rounded-full shadow-lg shadow-celeste z-0 hover:animate-pulse'></div>
+                <img src={logo} alt="Logo" className='h-24 hover:scale-105'/>
+                
             </div>
 
             {/*Web Menú*/}
             <ul className='hidden md:flex animate-smooth_in'>
                 {
                     navBarData.map((item, index) => (
-                        <li key={index} className='px-4' onClick={() => scrollTo(item.id)}>{item.text}</li>
+                        <li key={index} className='px-4 hover:underline underline-offset-4 decoration-solid decoration-celeste decoration-2 ' onClick={() => scrollTo(item.id)}>{item.text}</li>
                     ))
                 }
             </ul>
@@ -39,7 +40,7 @@ const NavBar = () => {
             <ul className={isOpen ? 'absolute md:hidden top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-ligthBlue animate-smooth_in' : 'animate-smooth_out hidden'}>
                 {
                     navBarData.map((item, index) => (
-                        <li key={index} className='py-4 text-4xl' onClick={() => {scrollTo(item.id); handleOpen();}}>{item.text}</li>
+                        <li key={index} className='py-4 text-4xl' onClick={() => { scrollTo(item.id); handleOpen(); }}>{item.text}</li>
                     ))
                 }
             </ul>
@@ -48,16 +49,17 @@ const NavBar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex items-center justify-center bg-linkedIn ml-[-110px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between w-full items-center ' href="">Linkedin <FaLinkedin /></a>
+                        <a className='flex justify-between w-full items-center ' href="https://www.linkedin.com/in/bianchilucasgabriel/">Linkedin <FaLinkedin /></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex items-center justify-center bg-gitHub ml-[-110px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between w-full items-center' href="">GitHub <FaGithub /></a>
+                        <a className='flex justify-between w-full items-center' href="https://github.com/BianchiLucas">GitHub <FaGithub /></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex items-center justify-center bg-grey2 ml-[-110px] hover:ml-[-10px] duration-300' >
-                        <a className='flex justify-between w-full items-center' href="">Resume <FaRegAddressBook /></a>
+                        <a className='flex justify-between w-full items-center' href="https://drive.google.com/file/d/1cvPlK7wYMxwgA2uFqa6vORaw2KTAiLAt/view?usp=sharing" download>Resume <FaRegAddressBook /></a>
                     </li>
                 </ul>
             </div>
+            
         </div>
     )
 }

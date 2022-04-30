@@ -3,43 +3,43 @@ import clouds from '../assets/clouds.jpg'
 import wallpaper from '../assets/wallpaper.jpg'
 import terminal from '../assets/terminal.png'
 import captura from '../assets/Captura.png'
+import photo from '../assets/photo.jpg'
+import photo2 from '../assets/photo2.jpg'
 
 const Home = () => {
     return (
         <div id='home'>
             <div className='container w-full h-full grid grid-cols-auto lg:grid-cols-2 m-auto p-8 gap-14 items-center justify-center '>
-                <div className='columns-1 sm:columns-2 snap-center '>
+                <div className='columns-1 sm:columns-auto snap-center '>
 
-                    <img alt='foto1' src={clouds} className='rounded-lg m-3 shadow-lg shadow-bgwindow' />
-                    <img alt='foto2' src={wallpaper} className='rounded-lg m-3 shadow-lg shadow-bgwindow' />
-                    <img alt='foto3' src={terminal} className='rounded-lg m-3 shadow-lg shadow-bgwindow' />
-                    <img alt='foto4' src={captura} className='rounded-lg m-3 shadow-lg shadow-bgwindow' />
+                    <img alt='foto1' src={photo} className='rounded-lg m-3 shadow-md shadow-bgwindow hover:shadow-celeste duration-300' />
 
                 </div>
-                <div className='h-fit bg-bgwindow/75 rounded-md border-grey2 border-2 shadow-lg shadow-grey2 hover:scale-105 duration-500 hover:shadow-celeste snap-center'>
+                <div className='h-fit bg-bgwindow/75 rounded-md border-grey2 border-2 shadow-md shadow-bgwindow  duration-500 hover:shadow-celeste snap-center'>
                     <div className='hidden sm:flex w-full h-6 top-0 border-t-0 border-x-0 border-b-grey2 border-2 p-0 m-0'></div>
                     <div className='w-full h-full p-4 '>
-                        <div className=' w-full tracking-widest leading-relaxed p-2 text-xs sm:text-base md:p-4 md:text-lg lg:text-lg lg:traking-[0.15em] lg:leading-loose xl:text-xl'>
+                        <div className=' w-full tracking-widest leading-relaxed p-2 text-xs font-mono sm:text-sm md:p-4 md:text-base lg:text-base lg:traking-[0.15em] lg:leading-loose xl:text-lg'>
 
-                            <p >&#123;</p>
-                            <p className='pl-10'>"name": </p>
+                            <p >[</p>
+                            <p className='pl-6'>"name": </p>
                             <p className='pl-32'>"Lucas Gabriel Bianchi",</p>
-                            <p className='pl-10'>"description": </p>
-                            <p className='pl-32'>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dignissimos ducimus asperiores error! Sapiente omnis nulla ",</p>
-                            <p className='pl-10'>"academic": &#123;</p>
-                            <p className='pl-32'>"secundaria": "Universidade Federal de Santa Catarina"</p>
-                            <p className='pl-10'>&#125;</p>
-                            <p className='pl-10'>"work": &#123;</p>
-                            <p className='pl-32'> "work1": "algo",</p>
-                            <p className='pl-32'>"work2": "algo pero no"</p>
-                            <p className='pl-10'>&#125;</p>
-                            <p className='pl-10'>"contact": &#123;</p>
-                            <p className='pl-32'>"email": "algo@algo.com",</p>
-                            <p className='pl-32'> "phone": "algo12312313",</p>
-                            <p className='pl-32'> "github": "algo.git",</p>
-                            <p className='pl-32'>"linkedin": "algo.linkedin"</p>
-                            <p className='pl-10'>&#125;</p>
-                            <p>&#125;</p>
+                            <p className='pl-6'>"description": </p>
+                            <p className='pl-32'>"Front-end web developer apprentice; Industrial engineering student ",</p>
+                            <p className='pl-6'>"academic": &#123;</p>
+                            <p className='pl-32'>"University: U.T.N. Facultad Regional Santa Fe"</p>
+                            <p className='pl-32'>"High school: E.E.T. 451 - electromechanical technician"</p>
+                            <p className='pl-6'>&#125;</p>
+                            <p className='pl-6'>"work": &#123;</p>
+                            <p className='pl-32'> "Innovare Software: Front-end web development whit React.js",</p>
+                            <p className='pl-32'>"Aguas Santafesinas S.A.: Plant operator, maintenance"</p>
+                            <p className='pl-32'>"U.T.E. Proyección Electroluz - JCR: Plant operator, maintenance"</p>
+                            <p className='pl-6'>&#125;</p>
+                            <p className='pl-6'>"contact": &#123;</p>
+                            <p className='pl-32'>"Linkedin: in/bianchilucasgabriel"</p>
+                            <p className='pl-32'> "Github: /BianchiLucas",</p>
+                            <p className='pl-32'>"Email: lucasbianchi92@gmail.com",</p>
+                            <p className='pl-6'>&#125;</p>
+                            <p>]</p>
 
                         </div>
                     </div>
