@@ -1,16 +1,11 @@
-import React from 'react'
-import clouds from '../assets/clouds.jpg'
-import wallpaper from '../assets/wallpaper.jpg'
-import terminal from '../assets/terminal.png'
-import captura from '../assets/Captura.png'
 import photo from '../assets/photo.jpg'
-import photo2 from '../assets/photo2.jpg'
+
 
 const Home = () => {
     return (
         <div id='home'>
             <div className='container w-full h-full grid grid-cols-auto lg:grid-cols-2 m-auto p-8 gap-14 items-center justify-center '>
-                <div className='columns-1 sm:columns-auto snap-center '>
+                <div className='columns-1 md:columns-auto snap-center '>
 
                     <img alt='foto1' src={photo} className='rounded-lg m-3 shadow-md shadow-bgwindow hover:shadow-celeste duration-300' />
 
@@ -18,7 +13,7 @@ const Home = () => {
                 <div className='h-fit bg-bgwindow/75 rounded-md border-grey2 border-2 shadow-md shadow-bgwindow  duration-500 hover:shadow-celeste snap-center'>
                     <div className='hidden sm:flex w-full h-6 top-0 border-t-0 border-x-0 border-b-grey2 border-2 p-0 m-0'></div>
                     <div className='w-full h-full p-4 '>
-                        <div className=' w-full tracking-widest leading-relaxed p-2 text-xs font-mono sm:text-sm md:p-4 md:text-base lg:text-base lg:traking-[0.15em] lg:leading-loose xl:text-lg'>
+                        <div className=' w-full tracking-widest leading-relaxed p-2 text-xs font-mono sm:text-sm md:p-4 md:text-sm lg:text-sm lg:traking-[0.15em] lg:leading-loose xl:text-lg'>
 
                             <p >[</p>
                             <p className='pl-6'>"name": </p>

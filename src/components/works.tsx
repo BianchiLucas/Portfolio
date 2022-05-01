@@ -1,4 +1,3 @@
-import React from 'react'
 import work1 from '../assets/GreatCrusade.png'
 import work2 from '../assets/Wear.png'
 import work3 from '../assets/Pagura.png'
@@ -61,7 +60,7 @@ const Works = () => {
                                 <a href="https://pagura.com.ar/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-bgwindow font-bold text-lg'>Demo</button>
                                 </a>
-                                <a >
+                                <a href='/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-bgwindow font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -75,7 +74,7 @@ const Works = () => {
                                 Check te code of this portfolio!
                             </span>
                             <div className='text-center pt-8'>
-                                <a href="">
+                                <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-bgwindow font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="https://github.com/BianchiLucas/Portfolio">

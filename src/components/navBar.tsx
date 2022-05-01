@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaBars, FaTimes, FaLinkedin, FaGithub, FaRegAddressBook } from 'react-icons/fa'
-import miniature from '../assets/miniature.png'
 import { navBarData } from '../data/navBarData'
 import logo from '../assets/lb.png'
 
