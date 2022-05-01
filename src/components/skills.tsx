@@ -11,7 +11,7 @@ const Skills = () => {
             <div className='max-w-4xl w-full mx-auto my-6 p-4 flex flex-col justify-center h-full'>
                 <div className='my-8'>
                     <p className='my-4 font-bold text-4xl inline border-b-4 border-celeste'>Skills</p>
-                    <p className='py-4 text-lg'>// These are the technologies I've worked whit</p>
+                    <p className='py-4 text-lg'>&gt;_  These are the technologies I've worked whit</p>
                 </div>
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center mx-auto'>
                     <div className='bg-blue3/05 shadow-md shadow-bgwindow rounded-md hover:scale-110 duration-300 hover:shadow-celeste'>
